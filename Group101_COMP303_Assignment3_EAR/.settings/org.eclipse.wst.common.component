@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Group101_COMP303_Assignment3_EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Group101_COMP303_Assignment3_WEB.war" deploy-path="/" handle="module:/resource/Group101_COMP303_Assignment3_WEB/Group101_COMP303_Assignment3_WEB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Group101_COMP303_Assignment3_JPA.jar" deploy-path="/lib" handle="module:/resource/Group101_COMP303_Assignment3_JPA/Group101_COMP303_Assignment3_JPA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

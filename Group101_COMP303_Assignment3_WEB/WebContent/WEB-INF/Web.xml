@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<web-app id="WebApp_ID" version="2.5"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name>StaffWeb</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>FaqDataServlet</display-name>
+		<servlet-name>FaqDataServlet</servlet-name>
+		<servlet-class>faq.FaqDataServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FaqDataServlet</servlet-name>
+		<url-pattern>/FaqDataServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>/FaqDataServlet</welcome-file>
+	</welcome-file-list>
+</web-app>
